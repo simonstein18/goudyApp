@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="goudyApp.css">
+</head>
+<body>
+    <div style="text-align: center; font-size: 37px;">
+        <p style="margin-bottom: 0;">GOUDY DINNER MENU</p>
+        <p style="margin-top: 0; font-size: 25px;">300 WINTER STREET SE</p>
+        <p style="font-size: 20px;">Click on the name of the food item to see the nutritional information</p>
+    </div>
+
+    <div id="foods" style="margin-left: 5%;">
+    </div>
+
+    <div id="popup">
+        <button class="xButton" onclick="xClick()">X</button>
+        <p class="nameFood" id="foodName">SLICED BEEF</p>
+        <div class="info">
+            <section class="performance-facts">
+                <header class="performance-facts__header">
+                <h1 class="performance-facts__title">Nutrition Facts</h1>
+                <p>Serving Size 1 cup (about 82g)
+                </header>
+                <table class="performance-facts__table">
+                <thead>
+                    <tr>
+                    <th colspan="3" class="small-info">
+                        Amount Per Serving
+                    </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                    <th colspan="2" id="cal">
+                        <b>Calories</b>
+                        200
+                    </th>
+                    <td>
+                    </td>
+                    </tr>
+                    <tr class="thick-row">
+                    <td colspan="3" class="small-info">
+                        <b>% Daily Value*</b>
+                    </td>
+                    </tr>
+                    <tr>
+                    <th colspan="2" id="tfat">
+                        <b>Total Fat</b>
+                        14g
+                    </th>
+                    <td>
+                        <b>22%</b>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td class="blank-cell">
+                    </td>
+                    <th id="sfat">
+                        Saturated Fat
+                        9g
+                    </th>
+                    <td>
+                        <b>0%</b>
+                    </td>
+                    </tr>
+                    <tr>
+                    </tr>
+                    <tr>
+                    <th colspan="2" id="chol">
+                        <b>Cholesterol</b>
+                        55mg
+                    </th>
+                    <td>
+                        <b>18%</b>
+                    </td>
+                    </tr>
+                    <tr>
+                    <th colspan="2" id="carb">
+                        <b>Total Carbohydrate</b>
+                        17g
+                    </th>
+                    <td>
+                        <b>6%</b>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td class="blank-cell">
+                    </td>
+                    <th id="fib">
+                        Dietary Fiber
+                        1g
+                    </th>
+                    <td>
+                        <b>4%</b>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td class="blank-cell">
+                    </td>
+                    <th id="sug">
+                        Sugars
+                        14g
+                    </th>
+                    <td>
+                    </td>
+                    </tr>
+                    <tr class="thick-end">
+                    <th colspan="2" id="prot">
+                        <b>Protein</b>
+                        3g
+                    </th>
+                    <td>
+                    </td>
+                    </tr>
+                </tbody>
+                </table>
+            
+                <p class="small-info">* Percent Daily Values are based on a 2,000 calorie diet. Your daily values may be higher or lower depending on your calorie needs
+            </section>
+        </div>
+        <p style="margin: 20px; font-family:'SANS-SERIF'; color: #5f5e5e">Nutrition information is approximate, based on current product and recipe data. Manufacturers may change their product formulation or consistency of ingredients without our knowledge, and product availability may fluctuate. While we make every effort to identify ingredients, we cannot assure against these contingencies. We cannot guarantee that a particular dish or item is free of a certain ingredient. Willamette Dining Services will assume no liability for any adverse reactions that may occur in the residential restaurants.</p>
+    </div>
+
+
+    <script>
+        function xClick(){
+            document.getElementById("popup").style.cssText = 'visibility: hidden;';
+            document.body.style.backgroundColor = "#ecebeb";
+            //document.getElementById("black").style.cssText = 'visibility: hidden;';
+        }
+
+        fetch('usda.json')
+            .then(response => response.json())
+            .then(data => {
+                for (let item in data) {
+                    
+                    const parentDiv = document.querySelector('#foods');
+                    const divItem = document.createElement('p');
+                    divItem.textContent = item;
+                    divItem.setAttribute('id', item);
+                    parentDiv.appendChild(divItem);
+                    divItem.addEventListener('click', function() {
+
+                        document.body.style.backgroundColor = "#000000ab";
+
+                        const popupDiv = document.querySelector('#popup');
+                        popupDiv.style.visibility = 'visible';
+
+                        const foodName = document.querySelector('#foodName');
+                        console.log("WHAAAAA", item)
+                        foodName.textContent = item;
+
+                        const calories = document.querySelector('#cal');
+                        const totalFat = document.querySelector('#tfat');
+                        const saturatedFat = document.querySelector('#sfat');
+                        const cholesterol = document.querySelector('#chol');
+                        const carbohydrate = document.querySelector('#carb');
+                        const fiber = document.querySelector('#fib');
+                        const sugar = document.querySelector('#sug');
+                        const protein = document.querySelector('#prot');
+
+                        calories.textContent = "Calories" + " " + data[item]["Calories"];
+                        totalFat.textContent = "Total Fat" + " " + data[item]["Total Fat"] + "g";
+                        saturatedFat.textContent = "Total Sat Fat" + " " + data[item]["Total Sat Fat"] + "g";
+                        cholesterol.textContent = "Cholesterol" + " " + data[item]["Cholesterol"] + "mg";
+                        carbohydrate.textContent = "Total Carbs" + " " + data[item]["Total Carbs"] + "g";
+                        fiber.textContent = "Fiber" + " " + data[item]["Fiber"] + "g";
+                        sugar.textContent = "Sugars" + " " + data[item]["Sugars"] + "g";
+                        protein.textContent = "Protein" + " " + data[item]["Protein"] + "g";
+                    });
+                }
+            });
+    </script>
+</body>
+</html>

@@ -1,0 +1,642 @@
+{
+    "Bob's Red Mill Oatmeal": {
+        "Calories": 362,
+        "Total Fat": 3.19,
+        "Total Sat Fat": 0.0,
+        "Cholesterol": 0.0,
+        "Total Carbs": 74.5,
+        "Fiber": 10.6,
+        "Sugars": 2.13,
+        "Protein": 10.6
+    },
+    "Hot Cereal Toppings": {
+        "Calories": 342,
+        "Total Fat": 2.0,
+        "Total Sat Fat": 0.3,
+        "Cholesterol": 0.0,
+        "Total Carbs": 75.2,
+        "Fiber": 9.5,
+        "Sugars": 0.42,
+        "Protein": 11.2
+    },
+    "Traditional Miso Soup": {
+        "Calories": 32.0,
+        "Total Fat": 1.56,
+        "Total Sat Fat": 0.218,
+        "Cholesterol": 4.0,
+        "Total Carbs": 2.27,
+        "Fiber": 0.4,
+        "Sugars": 0.83,
+        "Protein": 2.5
+    },
+    "Miso Toppings": {
+        "Calories": 198,
+        "Total Fat": 6.01,
+        "Total Sat Fat": 1.02,
+        "Cholesterol": 0.0,
+        "Total Carbs": 25.4,
+        "Fiber": 5.4,
+        "Sugars": 6.2,
+        "Protein": 12.8
+    },
+    "Roasted Red Breakfast Potatoes": {
+        "Calories": 126,
+        "Total Fat": 4.25,
+        "Total Sat Fat": 1.12,
+        "Cholesterol": 3.0,
+        "Total Carbs": 20.4,
+        "Fiber": 1.4,
+        "Sugars": 1.62,
+        "Protein": 1.87
+    },
+    "Pancakes Topped with Warm Syrup": {
+        "Calories": 265,
+        "Total Fat": 0.1,
+        "Total Sat Fat": 0.018,
+        "Cholesterol": 0.0,
+        "Total Carbs": 69.6,
+        "Fiber": 0.0,
+        "Sugars": 42.0,
+        "Protein": 0.0
+    },
+    "Scrambled Eggs": {
+        "Calories": 113,
+        "Total Fat": 6.45,
+        "Total Sat Fat": 2.02,
+        "Cholesterol": 294,
+        "Total Carbs": 1.61,
+        "Fiber": 0.0,
+        "Sugars": 0.81,
+        "Protein": 11.3
+    },
+    "Morning Star Breakfast T Sausages": {
+        "Calories": 327,
+        "Total Fat": 28.2,
+        "Total Sat Fat": 11.3,
+        "Cholesterol": 60.0,
+        "Total Carbs": 4.61,
+        "Fiber": 0.0,
+        "Sugars": 1.0,
+        "Protein": 12.9
+    },
+    "Grilled Ham Steaks": {
+        "Calories": 203,
+        "Total Fat": 8.52,
+        "Total Sat Fat": 3.04,
+        "Cholesterol": 87.0,
+        "Total Carbs": 0.0,
+        "Fiber": null,
+        "Sugars": null,
+        "Protein": 31.5
+    },
+    "Mix Breakfast Veg": {
+        "Calories": 353,
+        "Total Fat": 1.4,
+        "Total Sat Fat": 0.56,
+        "Cholesterol": 12.0,
+        "Total Carbs": 66.2,
+        "Fiber": 0.4,
+        "Sugars": 65.8,
+        "Protein": 19.9
+    },
+    "Fresh Cut Fruit": {
+        "Calories": 57.0,
+        "Total Fat": 0.21,
+        "Total Sat Fat": 0.045,
+        "Cholesterol": 0.0,
+        "Total Carbs": 13.7,
+        "Fiber": 1.5,
+        "Sugars": 10.4,
+        "Protein": 0.62
+    },
+    "Plain Yogurt": {
+        "Calories": 110,
+        "Total Fat": 4.85,
+        "Total Sat Fat": 3.08,
+        "Cholesterol": 13.0,
+        "Total Carbs": 11.4,
+        "Fiber": 0.0,
+        "Sugars": 3.08,
+        "Protein": 4.85
+    },
+    "Cottage Cheese": {
+        "Calories": 76.0,
+        "Total Fat": 2.12,
+        "Total Sat Fat": 1.27,
+        "Cholesterol": 13.0,
+        "Total Carbs": 6.78,
+        "Fiber": 0.0,
+        "Sugars": 4.24,
+        "Protein": 8.47
+    },
+    "Sunshine Toppings": {
+        "Calories": 254,
+        "Total Fat": 0.1,
+        "Total Sat Fat": 0.005,
+        "Cholesterol": 0.0,
+        "Total Carbs": 66.3,
+        "Fiber": 0.7,
+        "Sugars": 27.4,
+        "Protein": 0.2
+    },
+    "Assorted Bread and English Muffins": {
+        "Calories": 227,
+        "Total Fat": 1.69,
+        "Total Sat Fat": 0.733,
+        "Cholesterol": 0.0,
+        "Total Carbs": 44.2,
+        "Fiber": 3.5,
+        "Sugars": 3.53,
+        "Protein": 8.87
+    },
+    "House-made Pastries and Franz Doughnut's": {
+        "Calories": 242,
+        "Total Fat": 6.0,
+        "Total Sat Fat": 0.892,
+        "Cholesterol": 0.0,
+        "Total Carbs": 45.0,
+        "Fiber": 0.5,
+        "Sugars": 19.1,
+        "Protein": 2.78
+    },
+    "Red Plate Muffins": {
+        "Calories": 306,
+        "Total Fat": 13.1,
+        "Total Sat Fat": 2.21,
+        "Cholesterol": 43.0,
+        "Total Carbs": 42.6,
+        "Fiber": 0.9,
+        "Sugars": 22.7,
+        "Protein": 5.05
+    },
+    "Strawberry and Rose Green Iced Tea": {
+        "Calories": 27.0,
+        "Total Fat": 0.22,
+        "Total Sat Fat": 0.0,
+        "Cholesterol": 0.0,
+        "Total Carbs": 6.2,
+        "Fiber": 0.0,
+        "Sugars": 5.32,
+        "Protein": 0.0
+    },
+    "White Bean and Ham Soup": {
+        "Calories": 82.0,
+        "Total Fat": 1.99,
+        "Total Sat Fat": 0.65,
+        "Cholesterol": 12.0,
+        "Total Carbs": 8.29,
+        "Fiber": 2.0,
+        "Sugars": 0.63,
+        "Protein": 7.67
+    },
+    "Soy Curls with Peppers, Onions, and Potatoes": {
+        "Calories": 149,
+        "Total Fat": 9.14,
+        "Total Sat Fat": 2.02,
+        "Cholesterol": 28.0,
+        "Total Carbs": 5.43,
+        "Fiber": 0.8,
+        "Sugars": 2.17,
+        "Protein": 11.1
+    },
+    "Black Beans": {
+        "Calories": 85.0,
+        "Total Fat": 0.0,
+        "Total Sat Fat": 0.0,
+        "Cholesterol": 0.0,
+        "Total Carbs": 15.4,
+        "Fiber": 6.2,
+        "Sugars": 0.0,
+        "Protein": 5.38
+    },
+    "Spanish Rice": {
+        "Calories": 64.0,
+        "Total Fat": 1.79,
+        "Total Sat Fat": 0.0,
+        "Cholesterol": 0.0,
+        "Total Carbs": 10.7,
+        "Fiber": 0.7,
+        "Sugars": 0.71,
+        "Protein": 1.43
+    },
+    "Beef Picadillo": {
+        "Calories": 257,
+        "Total Fat": 12.4,
+        "Total Sat Fat": 5.31,
+        "Cholesterol": 27.0,
+        "Total Carbs": 28.3,
+        "Fiber": 2.7,
+        "Sugars": 1.77,
+        "Protein": 7.96
+    },
+    "Roasted Cauliflower and Broccoli": {
+        "Calories": 46.0,
+        "Total Fat": 2.71,
+        "Total Sat Fat": 0.696,
+        "Cholesterol": 2.0,
+        "Total Carbs": 4.41,
+        "Fiber": 2.8,
+        "Sugars": 1.23,
+        "Protein": 2.29
+    },
+    "Chana Dal": {
+        "Calories": 380,
+        "Total Fat": 6.0,
+        "Total Sat Fat": 2.0,
+        "Cholesterol": 0.0,
+        "Total Carbs": 60.0,
+        "Fiber": 18.0,
+        "Sugars": 12.0,
+        "Protein": 22.0
+    },
+    "Cumin Basmati Rice": {
+        "Calories": 202,
+        "Total Fat": 12.0,
+        "Total Sat Fat": 4.0,
+        "Cholesterol": 11.0,
+        "Total Carbs": 19.6,
+        "Fiber": 1.3,
+        "Sugars": 1.78,
+        "Protein": 4.0
+    },
+    "Coconut Curry Tofu": {
+        "Calories": 36.0,
+        "Total Fat": 1.06,
+        "Total Sat Fat": 0.35,
+        "Cholesterol": 0.0,
+        "Total Carbs": 6.5,
+        "Fiber": 1.0,
+        "Sugars": 3.7,
+        "Protein": 0.8
+    },
+    "Butter Chicken": {
+        "Calories": 900,
+        "Total Fat": 100,
+        "Total Sat Fat": 60.0,
+        "Cholesterol": 300,
+        "Total Carbs": 0.0,
+        "Fiber": 0.0,
+        "Sugars": 0.0,
+        "Protein": 0.0
+    },
+    "Herb Garlic Bread": {
+        "Calories": 350,
+        "Total Fat": 16.6,
+        "Total Sat Fat": 5.28,
+        "Cholesterol": 0.0,
+        "Total Carbs": 41.7,
+        "Fiber": 2.5,
+        "Sugars": 3.69,
+        "Protein": 8.36
+    },
+    "Roasted Brussels Sprouts": {
+        "Calories": 43.0,
+        "Total Fat": 0.3,
+        "Total Sat Fat": 0.062,
+        "Cholesterol": 0.0,
+        "Total Carbs": 8.95,
+        "Fiber": 3.8,
+        "Sugars": 2.2,
+        "Protein": 3.38
+    },
+    "Corn and Rice Pasta with Oat Milk Cream Sauce": {
+        "Calories": 204,
+        "Total Fat": 14.0,
+        "Total Sat Fat": 5.16,
+        "Cholesterol": 21.0,
+        "Total Carbs": 15.4,
+        "Fiber": 0.9,
+        "Sugars": 0.67,
+        "Protein": 3.83
+    },
+    "Bucatini with Lemon Oil": {
+        "Calories": 366,
+        "Total Fat": 1.5,
+        "Total Sat Fat": 0.27,
+        "Cholesterol": 0.0,
+        "Total Carbs": 90.3,
+        "Fiber": 0.1,
+        "Sugars": null,
+        "Protein": 0.1
+    },
+    "Classic Pomodoro with Garlic and Basil": {
+        "Calories": 67.0,
+        "Total Fat": 4.17,
+        "Total Sat Fat": 0.83,
+        "Cholesterol": 0.0,
+        "Total Carbs": 6.67,
+        "Fiber": 1.7,
+        "Sugars": 5.0,
+        "Protein": 0.83
+    },
+    "M&M Blondie": {
+        "Calories": 177,
+        "Total Fat": 6.46,
+        "Total Sat Fat": 3.4,
+        "Cholesterol": 16.0,
+        "Total Carbs": 26.8,
+        "Fiber": 0.2,
+        "Sugars": 24.4,
+        "Protein": 4.02
+    },
+    "Sweet Loren's Creme Br\u00fbl\u00e9e": {
+        "Calories": 113,
+        "Total Fat": 2.83,
+        "Total Sat Fat": 1.39,
+        "Cholesterol": 45.0,
+        "Total Carbs": 17.8,
+        "Fiber": 0.0,
+        "Sugars": 17.9,
+        "Protein": 4.06
+    },
+    "Buffalo Soy Curl Wrap": {
+        "Calories": 165,
+        "Total Fat": 10.6,
+        "Total Sat Fat": 2.94,
+        "Cholesterol": 12.0,
+        "Total Carbs": 13.5,
+        "Fiber": 1.2,
+        "Sugars": 1.76,
+        "Protein": 4.71
+    },
+    "Pastrami and Swiss": {
+        "Calories": 147,
+        "Total Fat": 5.82,
+        "Total Sat Fat": 2.68,
+        "Cholesterol": 68.0,
+        "Total Carbs": 0.36,
+        "Fiber": 0.0,
+        "Sugars": 0.1,
+        "Protein": 21.8
+    },
+    "Kale Salad with Apple Cider Dressing": {
+        "Calories": 172,
+        "Total Fat": 13.9,
+        "Total Sat Fat": 1.91,
+        "Cholesterol": 5.0,
+        "Total Carbs": 12.2,
+        "Fiber": 2.1,
+        "Sugars": 8.89,
+        "Protein": 1.48
+    },
+    "Corn Esquite": {
+        "Calories": 44.0,
+        "Total Fat": 0.21,
+        "Total Sat Fat": 0.026,
+        "Cholesterol": 0.0,
+        "Total Carbs": 9.4,
+        "Fiber": 0.5,
+        "Sugars": 0.19,
+        "Protein": 0.84
+    },
+    "Corn Tortilla": {
+        "Calories": 429,
+        "Total Fat": 3.57,
+        "Total Sat Fat": 0.0,
+        "Cholesterol": 0.0,
+        "Total Carbs": 85.7,
+        "Fiber": 3.6,
+        "Sugars": 0.0,
+        "Protein": 10.7
+    },
+    "Spicy Miso Soup": {
+        "Calories": 32.0,
+        "Total Fat": 1.56,
+        "Total Sat Fat": 0.218,
+        "Cholesterol": 4.0,
+        "Total Carbs": 2.27,
+        "Fiber": 0.4,
+        "Sugars": 0.83,
+        "Protein": 2.5
+    },
+    "White Bean and Ham": {
+        "Calories": 187,
+        "Total Fat": 3.66,
+        "Total Sat Fat": 0.965,
+        "Cholesterol": 20.0,
+        "Total Carbs": 25.6,
+        "Fiber": 1.2,
+        "Sugars": 2.76,
+        "Protein": 12.9
+    },
+    "Greens": {
+        "Calories": 145,
+        "Total Fat": 15.3,
+        "Total Sat Fat": 2.03,
+        "Cholesterol": 0.0,
+        "Total Carbs": 3.84,
+        "Fiber": 3.3,
+        "Sugars": 0.54,
+        "Protein": 1.03
+    },
+    "Vegetables": {
+        "Calories": 32.0,
+        "Total Fat": 0.2,
+        "Total Sat Fat": 0.035,
+        "Cholesterol": 0.0,
+        "Total Carbs": 6.8,
+        "Fiber": 1.5,
+        "Sugars": 2.57,
+        "Protein": 2.3
+    },
+    "Proteins": {
+        "Calories": 245,
+        "Total Fat": 2.2,
+        "Total Sat Fat": 0.332,
+        "Cholesterol": 0.0,
+        "Total Carbs": 43.8,
+        "Fiber": 3.0,
+        "Sugars": 1.44,
+        "Protein": 12.1
+    },
+    "Dressings": {
+        "Calories": 355,
+        "Total Fat": 26.2,
+        "Total Sat Fat": 2.39,
+        "Cholesterol": 0.0,
+        "Total Carbs": 31.9,
+        "Fiber": 0.7,
+        "Sugars": 17.7,
+        "Protein": 0.69
+    },
+    "Passover Matzo-Quiles": {
+        "Calories": 400,
+        "Total Fat": 0.0,
+        "Total Sat Fat": 0.0,
+        "Cholesterol": 0.0,
+        "Total Carbs": 83.3,
+        "Fiber": 3.3,
+        "Sugars": 0.0,
+        "Protein": 10.0
+    },
+    "Shrimp Diablo": {
+        "Calories": 200,
+        "Total Fat": 20.0,
+        "Total Sat Fat": null,
+        "Cholesterol": null,
+        "Total Carbs": 0.0,
+        "Fiber": null,
+        "Sugars": null,
+        "Protein": 0.0
+    },
+    "Vegetable Diablo": {
+        "Calories": 200,
+        "Total Fat": 20.0,
+        "Total Sat Fat": null,
+        "Cholesterol": null,
+        "Total Carbs": 0.0,
+        "Fiber": null,
+        "Sugars": null,
+        "Protein": 0.0
+    },
+    "Cilantro Lime Rice": {
+        "Calories": 150,
+        "Total Fat": 0.0,
+        "Total Sat Fat": 0.0,
+        "Cholesterol": 0.0,
+        "Total Carbs": 31.0,
+        "Fiber": 0.9,
+        "Sugars": 0.88,
+        "Protein": 3.54
+    },
+    "Roasted Chicken with Tonkatsu Sauce": {
+        "Calories": 167,
+        "Total Fat": 0.0,
+        "Total Sat Fat": null,
+        "Cholesterol": null,
+        "Total Carbs": 40.0,
+        "Fiber": null,
+        "Sugars": 26.7,
+        "Protein": 0.0
+    },
+    "Baked Tofu with Tonkatsu Sauce": {
+        "Calories": 167,
+        "Total Fat": 0.0,
+        "Total Sat Fat": null,
+        "Cholesterol": null,
+        "Total Carbs": 40.0,
+        "Fiber": null,
+        "Sugars": 26.7,
+        "Protein": 0.0
+    },
+    "Vegetarian White and Brown Fried Rice": {
+        "Calories": 174,
+        "Total Fat": 3.19,
+        "Total Sat Fat": 0.493,
+        "Cholesterol": 18.0,
+        "Total Carbs": 32.5,
+        "Fiber": 1.1,
+        "Sugars": 0.62,
+        "Protein": 3.84
+    },
+    "House-made Spam Musubi": {
+        "Calories": 315,
+        "Total Fat": 26.6,
+        "Total Sat Fat": 9.99,
+        "Cholesterol": 71.0,
+        "Total Carbs": 4.6,
+        "Fiber": 0.0,
+        "Sugars": 0.0,
+        "Protein": 13.4
+    },
+    "Chef's Choice Pasta": {
+        "Calories": 714,
+        "Total Fat": 78.6,
+        "Total Sat Fat": 50.0,
+        "Cholesterol": 214,
+        "Total Carbs": 0.0,
+        "Fiber": null,
+        "Sugars": null,
+        "Protein": 0.0
+    },
+    "Vegan Marinara": {
+        "Calories": 232,
+        "Total Fat": 19.2,
+        "Total Sat Fat": 3.3,
+        "Cholesterol": 24.0,
+        "Total Carbs": 16.0,
+        "Fiber": 0.0,
+        "Sugars": 6.0,
+        "Protein": 0.3
+    },
+    "Creamy Roasted Poblano Sauce": {
+        "Calories": 56.0,
+        "Total Fat": 3.17,
+        "Total Sat Fat": 0.0,
+        "Cholesterol": 0.0,
+        "Total Carbs": 6.35,
+        "Fiber": 0.0,
+        "Sugars": 3.17,
+        "Protein": 1.59
+    },
+    "Made without Gluten Containing Ingredients Available Upon Request": {
+        "Calories": 124,
+        "Total Fat": 0.98,
+        "Total Sat Fat": 0.14,
+        "Cholesterol": 0.0,
+        "Total Carbs": 25.1,
+        "Fiber": null,
+        "Sugars": null,
+        "Protein": 4.37
+    },
+    "Cheese Pizza": {
+        "Calories": 209,
+        "Total Fat": 4.35,
+        "Total Sat Fat": 2.17,
+        "Cholesterol": 9.0,
+        "Total Carbs": 32.2,
+        "Fiber": 0.9,
+        "Sugars": 6.96,
+        "Protein": 9.57
+    },
+    "Pepperoni Pizza": {
+        "Calories": 250,
+        "Total Fat": 12.5,
+        "Total Sat Fat": 6.25,
+        "Cholesterol": 16.0,
+        "Total Carbs": 18.8,
+        "Fiber": 0.0,
+        "Sugars": 0.0,
+        "Protein": 3.12
+    },
+    "Grilled Pineapple and Ham Pizza": {
+        "Calories": 117,
+        "Total Fat": 3.87,
+        "Total Sat Fat": 1.28,
+        "Cholesterol": 54.0,
+        "Total Carbs": 1.58,
+        "Fiber": 0.0,
+        "Sugars": 1.54,
+        "Protein": 19.0
+    },
+    "Made without Gluten Containing Ingredients Cheese Pizza Available Upon Request": {
+        "Calories": 368,
+        "Total Fat": 29.9,
+        "Total Sat Fat": 17.8,
+        "Cholesterol": 92.0,
+        "Total Carbs": 2.15,
+        "Fiber": 0.0,
+        "Sugars": 1.19,
+        "Protein": 22.6
+    },
+    "Short Cake Biscuits": {
+        "Calories": 346,
+        "Total Fat": 14.2,
+        "Total Sat Fat": 3.77,
+        "Cholesterol": 3.0,
+        "Total Carbs": 48.5,
+        "Fiber": null,
+        "Sugars": null,
+        "Protein": 6.1
+    },
+    "Vegan Short Cake Biscuits": {
+        "Calories": 346,
+        "Total Fat": 14.2,
+        "Total Sat Fat": 3.77,
+        "Cholesterol": 3.0,
+        "Total Carbs": 48.5,
+        "Fiber": null,
+        "Sugars": null,
+        "Protein": 6.1
+    }
+}
