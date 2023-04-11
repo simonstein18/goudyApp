@@ -1,1 +1,1 @@
-worker: gunicorn mitch.py
+worker: python mitch.py
