@@ -1,1 +1,1 @@
-web: gunicorn mitch:app --bind 0.0.0.0:$PORT
+web: python mitch.py && gunicorn --bind 0.0.0.0:$PORT -w 1 -t 600 index:app
