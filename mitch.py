@@ -117,6 +117,7 @@ def main():
     # Save the food data as a JSON file
     with open(json_file_path, 'w') as json_file:
         json.dump(USDA, json_file, indent=4)
+    print(USDA)
     print("done...")
 
 
