@@ -1,1 +1,1 @@
-web: python -m https.server
+web: python -m http.server
