@@ -1,1 +1,1 @@
-web: gunicorn mitch.py:app
+web: index.html
