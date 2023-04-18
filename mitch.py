@@ -121,8 +121,9 @@ def main():
 
 
 # Schedule the job to run every day
-schedule.every().day.at("14:01").do(main)
+schedule.every().day.at("07:00").do(main)
 main()
+
 while True:
     schedule.run_pending()
     time.sleep(1)
